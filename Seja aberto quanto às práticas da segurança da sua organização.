@@ -1,0 +1,18 @@
+Tradicionalmente a "segurança pela obscuridade" ("Security Through Oscurity" (STO)) tem sido uma prática habitual nas organizações como forma de resistir a ciberataques já que os intrusos usam a informação disponível sobre as organizações para explorarem vulnerabilidades e vectores de ataque. Esta prática tem décadas mas está actualmente a cair em desuso.
+https://www.dinheirovivo.pt/opiniao/seja-aberto-quanto-as-praticas-de-seguranca-da-sua-organizacao-14952987.html
+
+A STO dá uma ideia ilusória de segurança assentando numa noção de "need to know": se um indivíduo não conhece como pode impactar os sistemas de segurança: não representa um risco de segurança para a organização. Em teoria isto parece bem, contudo, no mundo actual de sistemas abertos e interligados, do grande desenvolvimento das linguagens de programas, da popularização do conhecimento das mesmas e das vulnerabilidades das mesmas, assim como a existência de grupos profissionalizados e agentes estatais bem organizados e financiados tornam a STO obsoleta.
+
+Algumas técnicas comuns de STO:
+a. Assumindo que um atacante pode ler palavras-chave as passwords são ocultas por módulos de código binário ou em ficheiros binários: Contudo a password é apenas protegida - geralmente nestas técnicas - por cifras simples de substituição que são facilmente cracáveis por ataques de força bruta.
+b. Portas não standard são preferidas sobre portas convencionais (como a 80 para o HTTP e o 443 para o HTTPS). Contudo assim que um hacker detecta essa mudança de portas (e isso pode ser facilmente identificado através de sniffing de tráfego) esta protecção desaparece. Seria mais seguro limitar a quantidade de requests por cliente, criar regras de firewall seguras ou usar autenticação por multiplo-factor.
+c. Outra prática comum de STO é ocultar a versão de software dos serviços que estão publicados na Internet como forma de ocultar as vulnerabilidades da versão exposta na rede pública. É possível identificar a versões com o comando fpdns -D e mudar, por exemplo, os banners do web e ftp servers sendo estas formas comuns de identificação de vulnerabilidades e de obscuridade.
+d. A mudança de pastas aplicacionais ligadas a contas privilegiadas através da introdução de caracteres especiais também é comum mas também pode ser facilmente identificada e contornada.
+Os problemas da STO (Segurança por Obscuridade):
+a. Um sentimento falso de segurança: não é através da ocultação das plataformas, aplicações e versões que trazemos segurança à nossa organização. Muitos incidentes nos últimos anos demonstraram a ilusória protecção garantida por estas técnicas. Pelo contrário a restrição de acessos tem-se revelado muito mais eficiente na protecção das organizações.
+b. Hoje em dia o desenvolvimento de aplicações envolve muitas equipas, pessoas e, por vezes, vários parceiros externos. Nestas condições muitos têm acesso ao código-fonte ou a partes dele.
+c. A popularidade de ferramentas de partilha de ficheiros torna difícil de garantir que o código fica sempre sob controlo de todas as organizações.
+Se a estratégia de ciberdefesa da sua autarquia assenta apenas na Segurança pela Obscuridade: pense melhor. Ainda pode ser uma parte viável de uma estratégia mais ampla mas não pode ser o pilar principal e é muito importante para os seus utilizadores e parceiros comunicar bem, de forma aberta, transparente e rápida todos os incidentes de cibersegurança de relevância ou que possam influenciar os seus clientes ou utilizadores.
+
+também publicado em:
+https://www.dinheirovivo.pt/opiniao/seja-aberto-quanto-as-praticas-de-seguranca-da-sua-organizacao-14952987.html
